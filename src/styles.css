@@ -1,0 +1,75 @@
+
+@font-face {
+    font-family: 'Manrope';
+    /* format tells the browser the format of the font to improve performance purposes */
+    src: url("../assets/fonts/Manrope/Manrope-VariableFont_wght.ttf");
+    font-weight: normal bold;
+    font-style: normal;
+}
+
+body {
+    font-family: Manrope, sans-serif;
+    min-height: 100vh;
+    background-color: hsl(217, 19%, 24%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+}
+
+#advice-quote {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 0.8em;
+    height: 125px;
+}
+
+#advice-box {
+    background-color: hsl(217, 19%, 38%);
+    position: relative; /* allows for dice to be placed on the edge*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 1px 20px 14px rgba(0,0,0,0.1);
+}
+
+#advice-num {
+    margin-bottom: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: hsl(150, 100%, 66%);
+}
+
+#divider {
+    filter: brightness(0) invert(1);
+    display: block;
+    margin-bottom: 30px;
+}
+
+#next-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+    position: absolute;
+    bottom: -25px; /* trick to place at 25px below the bottom of the advice box */
+}
+
+#next-button:hover {
+    box-shadow: 0 0 25px 0 hsl(150, 100%, 66%);
+    cursor: pointer;
+}
+
+#next-button > img {
+    display: block;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+}
