@@ -2,7 +2,7 @@
 @font-face {
     font-family: 'Manrope';
     /* format tells the browser the format of the font to improve performance purposes */
-    src: url("../assets/fonts/Manrope/Manrope-VariableFont_wght.ttf");
+    src: url("../assets/fonts/Manrope/Manrope-VariableFont_wght.ttf") format('truetype');
     font-weight: normal bold;
     font-style: normal;
 }
@@ -24,7 +24,7 @@ body {
     font-size: 28px;
     margin-top: 0;
     margin-bottom: 0.8em;
-    height: 125px;
+    height: 150px;
 }
 
 #advice-box {
@@ -36,6 +36,7 @@ body {
     border-radius: 12px;
     padding: 40px;
     box-shadow: 0 1px 20px 14px rgba(0,0,0,0.1);
+    width: 500px;
 }
 
 #advice-num {
@@ -47,7 +48,8 @@ body {
 }
 
 #divider {
-    filter: brightness(0) invert(1);
+
+    filter: brightness(0) invert(1); /* turn the divider completely white */
     display: block;
     margin-bottom: 30px;
 }
