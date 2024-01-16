@@ -1,6 +1,6 @@
 # Frontend Mentor - Advice generator app solution
 
-This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Advice generator app challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db).
 
 ## Table of contents
 
@@ -45,7 +45,7 @@ Users should be able to:
 
 ### What I used
 
-- An external JSON API called AdviceSlip
+- An external JSON API called [AdviceSlip](https://api.adviceslip.com/)
   - Created a promise to handle an HTTP GET request
 
 
