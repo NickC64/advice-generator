@@ -37,7 +37,7 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5
-  - ARIA tags for accessibility
+  - ARIA attributes for accessibility
 - CSS Flexbox
 - JS
 
